@@ -11,7 +11,7 @@ import { getFirestore, doc, getDoc, setDoc } from 'firebase/firestore';
 
 const firebaseConfig = {
     apiKey: "AIzaSyAtmbbPKev0aTNRk5le5lpI2jVv6JgrDqE",
-    authDomain: "mlis-integration.firebaseapp.com",
+    authDomain: "mlis-integration-fb8880e98dc4.herokuapp.com",
     projectId: "mlis-integration",
     storageBucket: "mlis-integration.appspot.com",
     messagingSenderId: "310870279967",
