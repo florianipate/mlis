@@ -17,7 +17,7 @@ const firebaseConfig = {
     messagingSenderId: "310870279967",
     appId: "1:310870279967:web:24ea6a69955d5cb0dd522a"
   };
-  
+
 const firebaseApp = initializeApp(firebaseConfig);
 
 const googleProvider = new GoogleAuthProvider();
@@ -31,7 +31,7 @@ export const signInWithGooglePopup = () =>
   signInWithPopup(auth, googleProvider);
 export const signInWithGoogleRedirect = () =>
   signInWithRedirect(auth, googleProvider);
-
+ 
 export const db = getFirestore();
 
 export const createUserDocumentFromAuth = async (
